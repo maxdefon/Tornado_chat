@@ -1,0 +1,10 @@
+	<div class="login">	
+	<form action="/login" method="post" id="loginform">
+               <input name="name" id="login" style="width:500px"/>
+
+                <input type="submit" value="{{ _("Login") }}"/>
+                <input type="hidden" name="next" value="{{ request.path }}"/>
+                {% module xsrf_form_html() %}
+
+        </form>
+	</div>

@@ -1,0 +1,12 @@
+#body {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#inbox .message {
+  padding-top: 0.25em;
+}
+#nav {
+  float: right;
+  z-index: 99;
+}
